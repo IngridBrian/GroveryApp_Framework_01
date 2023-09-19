@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T00:09:52 IST" name="Suite" finished-at="2023-09-20T00:10:52 IST" duration-ms="59961">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T00:09:52 IST" name="Test1" finished-at="2023-09-20T00:10:24 IST" duration-ms="32000">
+      <class name="com.obsqura.tests.LoginTest">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.LoginTest@14dd7b39]" started-at="2023-09-20T00:09:52 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:10 IST" duration-ms="17838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="MyLoginTest()[pri:0, instance:com.obsqura.tests.LoginTest@14dd7b39]" started-at="2023-09-20T00:10:10 IST" name="MyLoginTest" finished-at="2023-09-20T00:10:15 IST" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyLoginTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.LoginTest@14dd7b39]" started-at="2023-09-20T00:10:15 IST" name="TearDown" finished-at="2023-09-20T00:10:24 IST" duration-ms="8561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.LoginTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-09-20T00:09:52 IST" name="Test2" finished-at="2023-09-20T00:10:26 IST" duration-ms="34249">
+      <class name="com.obsqura.tests.SearchProductTest">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.SearchProductTest@68878f6d]" started-at="2023-09-20T00:09:52 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:10 IST" duration-ms="17891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="MySearchProductTest()[pri:0, instance:com.obsqura.tests.SearchProductTest@68878f6d]" started-at="2023-09-20T00:10:10 IST" name="MySearchProductTest" finished-at="2023-09-20T00:10:21 IST" duration-ms="11668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySearchProductTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.SearchProductTest@68878f6d]" started-at="2023-09-20T00:10:21 IST" name="TearDown" finished-at="2023-09-20T00:10:26 IST" duration-ms="4586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.SearchProductTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-09-20T00:09:52 IST" name="Test4" finished-at="2023-09-20T00:10:31 IST" duration-ms="39537">
+      <class name="com.obsqura.tests.CreateDeliveryBoy">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.CreateDeliveryBoy@238d68ff]" started-at="2023-09-20T00:09:52 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:10 IST" duration-ms="18555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="CreateDeliveryBoyTest()[pri:0, instance:com.obsqura.tests.CreateDeliveryBoy@238d68ff]" started-at="2023-09-20T00:10:10 IST" name="CreateDeliveryBoyTest" finished-at="2023-09-20T00:10:22 IST" duration-ms="11997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDeliveryBoyTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.CreateDeliveryBoy@238d68ff]" started-at="2023-09-20T00:10:22 IST" name="TearDown" finished-at="2023-09-20T00:10:31 IST" duration-ms="8892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.CreateDeliveryBoy -->
+    </test> <!-- Test4 -->
+    <test started-at="2023-09-20T00:09:52 IST" name="Test3" finished-at="2023-09-20T00:10:41 IST" duration-ms="48903">
+      <class name="com.obsqura.tests.CreateandDeleteExpense">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.CreateandDeleteExpense@78fa769e]" started-at="2023-09-20T00:09:52 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:10 IST" duration-ms="18478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="MyCreateDeleteExpense()[pri:0, instance:com.obsqura.tests.CreateandDeleteExpense@78fa769e]" started-at="2023-09-20T00:10:10 IST" name="MyCreateDeleteExpense" finished-at="2023-09-20T00:10:25 IST" duration-ms="14687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCreateDeleteExpense -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.CreateandDeleteExpense@78fa769e]" started-at="2023-09-20T00:10:25 IST" name="TearDown" finished-at="2023-09-20T00:10:41 IST" duration-ms="15644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.CreateandDeleteExpense -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-09-20T00:09:52 IST" name="Test5" finished-at="2023-09-20T00:10:42 IST" duration-ms="50088">
+      <class name="com.obsqura.tests.CreateContact">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.CreateContact@376a0d86]" started-at="2023-09-20T00:09:52 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:11 IST" duration-ms="18923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="CreateContactTest()[pri:0, instance:com.obsqura.tests.CreateContact@376a0d86]" started-at="2023-09-20T00:10:11 IST" name="CreateContactTest" finished-at="2023-09-20T00:10:31 IST" duration-ms="20481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.CreateContact@376a0d86]" started-at="2023-09-20T00:10:31 IST" name="TearDown" finished-at="2023-09-20T00:10:42 IST" duration-ms="10609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.CreateContact -->
+    </test> <!-- Test5 -->
+    <test started-at="2023-09-20T00:10:26 IST" name="Test6" finished-at="2023-09-20T00:10:42 IST" duration-ms="16012">
+      <class name="com.obsqura.tests.PushNotifications">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.PushNotifications@6c7a164b]" started-at="2023-09-20T00:10:26 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:33 IST" duration-ms="6820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="PushNotificationsTest()[pri:0, instance:com.obsqura.tests.PushNotifications@6c7a164b]" started-at="2023-09-20T00:10:33 IST" name="PushNotificationsTest" finished-at="2023-09-20T00:10:39 IST" duration-ms="6462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PushNotificationsTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.PushNotifications@6c7a164b]" started-at="2023-09-20T00:10:39 IST" name="TearDown" finished-at="2023-09-20T00:10:42 IST" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.PushNotifications -->
+    </test> <!-- Test6 -->
+    <test started-at="2023-09-20T00:10:26 IST" name="Test7" finished-at="2023-09-20T00:10:42 IST" duration-ms="16202">
+      <class name="com.obsqura.tests.ManageLocation">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.ManageLocation@3f1d2e23]" started-at="2023-09-20T00:10:26 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:32 IST" duration-ms="5548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="MyManageLocationTest()[pri:0, instance:com.obsqura.tests.ManageLocation@3f1d2e23]" started-at="2023-09-20T00:10:32 IST" name="MyManageLocationTest" finished-at="2023-09-20T00:10:40 IST" duration-ms="8539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyManageLocationTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.ManageLocation@3f1d2e23]" started-at="2023-09-20T00:10:40 IST" name="TearDown" finished-at="2023-09-20T00:10:42 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.ManageLocation -->
+    </test> <!-- Test7 -->
+    <test started-at="2023-09-20T00:10:31 IST" name="Test8" finished-at="2023-09-20T00:10:44 IST" duration-ms="12645">
+      <class name="com.obsqura.tests.ListCategoryTest">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.ListCategoryTest@33f676f6]" started-at="2023-09-20T00:10:31 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:38 IST" duration-ms="6150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="ManageCategoryTest()[pri:0, instance:com.obsqura.tests.ListCategoryTest@33f676f6]" started-at="2023-09-20T00:10:38 IST" name="ManageCategoryTest" finished-at="2023-09-20T00:10:42 IST" duration-ms="4645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageCategoryTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.ListCategoryTest@33f676f6]" started-at="2023-09-20T00:10:42 IST" name="TearDown" finished-at="2023-09-20T00:10:44 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.ListCategoryTest -->
+    </test> <!-- Test8 -->
+    <test started-at="2023-09-20T00:10:41 IST" name="Test9" finished-at="2023-09-20T00:10:51 IST" duration-ms="9824">
+      <class name="com.obsqura.tests.ManagePaymentMethods">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.ManagePaymentMethods@81d9a72]" started-at="2023-09-20T00:10:41 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:46 IST" duration-ms="4698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="mangementPaymentTest()[pri:0, instance:com.obsqura.tests.ManagePaymentMethods@81d9a72]" started-at="2023-09-20T00:10:46 IST" name="mangementPaymentTest" finished-at="2023-09-20T00:10:50 IST" duration-ms="4601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mangementPaymentTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.ManagePaymentMethods@81d9a72]" started-at="2023-09-20T00:10:50 IST" name="TearDown" finished-at="2023-09-20T00:10:51 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.ManagePaymentMethods -->
+    </test> <!-- Test9 -->
+    <test started-at="2023-09-20T00:10:42 IST" name="Test10" finished-at="2023-09-20T00:10:52 IST" duration-ms="9812">
+      <class name="com.obsqura.tests.MobileSliderTest">
+        <test-method is-config="true" signature="InitializeDriver(java.lang.String)[pri:0, instance:com.obsqura.tests.MobileSliderTest@13df2a8c]" started-at="2023-09-20T00:10:42 IST" name="InitializeDriver" finished-at="2023-09-20T00:10:47 IST" duration-ms="5275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method signature="MYMobileSliderTest()[pri:0, instance:com.obsqura.tests.MobileSliderTest@13df2a8c]" started-at="2023-09-20T00:10:47 IST" name="MYMobileSliderTest" finished-at="2023-09-20T00:10:51 IST" duration-ms="3965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MYMobileSliderTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.obsqura.tests.MobileSliderTest@13df2a8c]" started-at="2023-09-20T00:10:51 IST" name="TearDown" finished-at="2023-09-20T00:10:52 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.obsqura.tests.MobileSliderTest -->
+    </test> <!-- Test10 -->
+  </suite> <!-- Suite -->
+</testng-results>
