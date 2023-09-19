@@ -12,8 +12,9 @@ public class SearchProductTest extends BaseTest {
 	@Test
 	public void MySearchProductTest() throws IOException {
 
-		lp.Login();
-		hp.NavigateToManageProduct();
+		String username =TestProperties.GetProperties().getProperty("username");
+		String password =TestProperties.GetProperties().getProperty("password");
+		lp.Login(username,password);		hp.NavigateToManageProduct();
 		pp.ClickSearchBtn();
 		String productName = TestProperties.GetProperties().getProperty("productName");
 		String text = pp.ValidateSearchProduct(productName);

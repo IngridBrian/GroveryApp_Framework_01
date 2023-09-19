@@ -34,9 +34,9 @@ public class BaseTest {
 
 	@Parameters({ "browserName" })
 	@BeforeMethod
-	public void InitializeDriver(String browserName) throws IOException {
+	public void InitializeDriver() throws IOException {
 		prop = TestProperties.GetProperties();
-		//String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 		System.out.println(browserName);
 		String Environment = prop.getProperty("Environment");
 		String Url = prop.getProperty(Environment);

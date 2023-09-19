@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.tests.AdminUsers">
+      <class name="com.obsqura.tests.LoginTest">
         <methods>
-          <include name="AdminUsersTest"/>
           <include name="TearDown"/>
+          <include name="MyLoginTest"/>
           <include name="InitializeDriver"/>
         </methods>
-      </class> <!-- com.obsqura.tests.AdminUsers -->
+      </class> <!-- com.obsqura.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

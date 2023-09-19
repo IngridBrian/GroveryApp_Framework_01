@@ -22,21 +22,26 @@ public class LoginPage extends PageUtility {
 	 */
 
 	@FindBy(xpath = "//input[@placeholder='Username']")
-	private WebElement username;
+	private WebElement Username;
 
 
 	@FindBy(css ="input[placeholder='Password']")
-	private WebElement password;
+	private WebElement Password;
 
 	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement submitBtn;
 	
 	
-	public void Login() {
-		SetTextBox(username, "admin");
-		SetTextBox(password, "admin");
-		ClickElement(submitBtn);
+	public void Login(String username, String password) {
+//		SetTextBox(username, "admin");
+//		SetTextBox(password, "admin");
+//		ClickElement(submitBtn);
+//		
 		
+		Username.sendKeys(username);
+		Password.sendKeys(password);
+		ClickElement(submitBtn);
+
 	}
 
 
