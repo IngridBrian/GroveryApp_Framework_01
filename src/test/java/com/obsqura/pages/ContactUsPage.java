@@ -48,13 +48,13 @@ public class ContactUsPage extends PageUtility {
 		ClickElement(contactEditBtn);
 	}
 
-	public void EnterDataIntoForm(Person person) {
+	public void EnterDataIntoForm(Person data) {
 		ClickEditBtn();
-		SetTextBox(phone, Integer.toString(person.phoneNumber));
-		SetTextBox(email, person.email);
-		SetTextBox(address, person.address);
-		SetTextBox(deliveryTime, person.deliveryTime);
-		SetTextBox(deliveryCharge, Integer.toString(person.deliveryCharge));
+		SetTextBox(phone, Integer.toString(data.phoneNumber));
+		SetTextBox(email, data.email);
+		SetTextBox(address, data.address);
+		SetTextBox(deliveryTime, data.deliveryTime);
+		SetTextBox(deliveryCharge, Integer.toString(data.deliveryCharge));
 		ScrollUp();
 		WaitUntilClickable(updateBtn);
 		ClickElement(updateBtn);

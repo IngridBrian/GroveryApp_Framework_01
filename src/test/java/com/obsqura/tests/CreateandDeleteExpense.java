@@ -6,16 +6,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.obsqura.utilities.DateUtility;
-import com.obsqura.utilities.TestProperties;
 
 public class CreateandDeleteExpense extends BaseTest {
 
 	@Test
 	public void MyCreateDeleteExpense() throws IOException {
-
-		String username =TestProperties.GetProperties().getProperty("username");
-		String password =TestProperties.GetProperties().getProperty("password");
-		lp.Login(username,password);
+		lp.Login();
 		hp.NavigateToManageExpense();
 		String date = DateUtility.GetCurrentDate();
 		ecp.CreateUniqueTitle(date);

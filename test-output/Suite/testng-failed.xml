@@ -4,16 +4,124 @@
   <listeners>
     <listener class-name="com.obsqura.listeners.Listeners"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.obsqura.tests.LoginTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="MyLoginTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.obsqura.tests.CreateandDeleteExpense">
+        <methods>
+          <include name="TearDown"/>
+          <include name="InitializeDriver"/>
+          <include name="MyCreateDeleteExpense"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.CreateandDeleteExpense -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.obsqura.tests.SearchProductTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="MySearchProductTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.SearchProductTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test4(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.obsqura.tests.CreateDeliveryBoy">
+        <methods>
+          <include name="TearDown"/>
+          <include name="CreateDeliveryBoyTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.CreateDeliveryBoy -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" parallel="tests" name="Test5(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.obsqura.tests.CreateContact">
+        <methods>
+          <include name="TearDown"/>
+          <include name="CreateContactTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.CreateContact -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="5" parallel="tests" name="Test9(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.obsqura.tests.ManagePaymentMethods">
+        <methods>
+          <include name="TearDown"/>
+          <include name="InitializeDriver"/>
+          <include name="mangementPaymentTest"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.ManagePaymentMethods -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+  <test thread-count="5" parallel="tests" name="Test6(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.obsqura.tests.PushNotifications">
+        <methods>
+          <include name="TearDown"/>
+          <include name="PushNotificationsTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.PushNotifications -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="5" parallel="tests" name="Test10(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.obsqura.tests.MobileSliderTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="InitializeDriver"/>
+          <include name="MYMobileSliderTest"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.MobileSliderTest -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+  <test thread-count="5" parallel="tests" name="Test7(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.obsqura.tests.ManageLocation">
+        <methods>
+          <include name="TearDown"/>
+          <include name="MyManageLocationTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.ManageLocation -->
+    </classes>
+  </test> <!-- Test7(failed) -->
   <test thread-count="5" parallel="tests" name="Test8(failed)">
     <parameter name="browserName" value="Edge"/>
     <classes>
-      <class name="com.obsqura.tests.AdminUsers">
+      <class name="com.obsqura.tests.ListCategoryTest">
         <methods>
-          <include name="AdminUsersTest"/>
           <include name="TearDown"/>
+          <include name="ManageCategoryTest"/>
           <include name="InitializeDriver"/>
         </methods>
-      </class> <!-- com.obsqura.tests.AdminUsers -->
+      </class> <!-- com.obsqura.tests.ListCategoryTest -->
     </classes>
   </test> <!-- Test8(failed) -->
 </suite> <!-- Failed suite [Suite] -->
